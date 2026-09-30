@@ -1,4 +1,4 @@
-package Module1.Problem4;
+package module1.problem4;
 
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -48,3 +48,4 @@ public class Main {
         }
     }
 }
+
