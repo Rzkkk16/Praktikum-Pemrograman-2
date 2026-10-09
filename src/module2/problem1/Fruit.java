@@ -6,7 +6,7 @@ public class Fruit {
     private double weight;
     private double buying;
     private double preDiscountPrice;
-    private double discountTotal;
+    private double pricePerKg;
 
 
 
@@ -15,6 +15,7 @@ public class Fruit {
         this.price = price;
         this.weight = weight;
         this.buying = buying;
+        this.pricePerKg = this.price / this.weight;
     }
 
     public void printInfo() {
@@ -34,9 +35,9 @@ public class Fruit {
     }
 
     public double getDiscountTotal() {
-        int multiple = (int) (buying / 4);
-        discountTotal = multiple * 4 * 0.02 * price;
-        return discountTotal;
+        double discountPercentage = 0.02;
+        int discountBatches = (int) (this.buying / 4);
+        return discountBatches * (this.pricePerKg * 4) * discountPercentage;
     }
 
     public double getPostDiscountPrice() {

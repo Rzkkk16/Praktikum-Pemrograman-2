@@ -5,9 +5,6 @@ public class Coffee {
     public double price;
     private double tax;
 
-    public Coffee () {
-    }
-
     public void printInfo() {
         System.out.println("Nama Kopi: " + coffeeName);
         System.out.println("Ukuran : " + size);
