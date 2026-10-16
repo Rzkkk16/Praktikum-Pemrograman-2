@@ -50,7 +50,6 @@ public class Country {
 
         System.out.println("Negara " + this.countryName + " mempunyai " + leaderTitle + " bernama " + this.leaderName );
 
-        // TODO: Gunakan if agar baris 2 hanya di-print untuk negara dengan jenis kepemimpinan selain monarki
         if (!this.leadershipType.toLowerCase().equals("monarki")) {
             System.out.println("Deklarasi Kemerdekaan pada Tanggal " + this.independenceDay + " " + monthNames.get(independenceMonth) + " " + this.independenceYear );
         }

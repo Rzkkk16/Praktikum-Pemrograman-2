@@ -10,6 +10,7 @@ public class Main {
         int numberOfCountries = Integer.parseInt(input.nextLine());
 
         LinkedList<Country> countries = new LinkedList<>();
+
         for (int i = 0; i < numberOfCountries; i++) {
             String countryName = input.nextLine();
             String leadershipType = input.nextLine();

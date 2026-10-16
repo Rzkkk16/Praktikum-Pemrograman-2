@@ -90,9 +90,7 @@ public class Main {
                     students.clear();
                     System.out.println("Terima kasih!");
 
-                    return; // Apa bedanya break dengan return?
-                // klo break cuman keluar switch case, tapi masih di while.
-                // klo return keluar dari semuanya dan program terhenti langsung.
+                    return;
 
                 default:
                     System.out.println("Pilihan tidak valid. Silakan coba lagi.");
