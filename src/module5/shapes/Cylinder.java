@@ -13,11 +13,11 @@ public class Cylinder extends Shape {
     @Override
     public double area()
     {
-        return Math.PI * radius * radius * height;
+        return 2 * Math.PI * radius * ( radius + height );
     }
 
     @Override
     public String toString() {
-        return super.toString() + "of Radius" + radius + "and Height" + height;
+        return super.toString() + " of Radius " + radius + " and Height " + height;
     }
 }
