@@ -31,7 +31,7 @@ public class StudentController {
                 new Student(6, "Budi", "241015"),
                 new Student(7, "Rina", "241016"),
                 new Student(8, "Dewi", "241017"),
-                new Student(9, "Andi", "241018"),
+                new Student(9, "Andi",  "241018"),
                 new Student(10, "Tono", "2410109")
         );
 
